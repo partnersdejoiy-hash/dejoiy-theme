@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>Dejoiy - The Future of Outsourcing</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+
+  <!-- Favicon -->
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <!-- NAVIGATION -->
+  <header class="nav-container" id="navbar">
+    <nav class="nav">
+      <a href="#" class="nav-logo" aria-label="Dejoiy Homepage">
+  <img src="assets/icons/dejoiy-logo.svg" alt="Dejoiy Logo" width="36" height="36" loading="lazy" />
+  <span class="nav-logo-text">Dejoiy</span>
+</a>
+      <ul class="nav-menu" role="menubar">
+        <li class="nav-item has-dropdown" tabindex="0" aria-haspopup="true" aria-expanded="false">
+          <span class="nav-link" aria-controls="about-dropdown" id="about-label">Who we are</span>
+          <ul class="dropdown-menu" id="about-dropdown" aria-labelledby="about-label">
+            <li><a href="#about" class="dropdown-link">About Us</a></li>
+            <li><a href="#founders" class="dropdown-link">Leadership</a></li>
+          </ul>
+        </li>
+        <li class="nav-item has-dropdown" tabindex="0" aria-haspopup="true" aria-expanded="false">
+          <span class="nav-link" aria-controls="services-dropdown" id="services-label">Services</span>
+          <ul class="dropdown-menu mega-menu" id="services-dropdown" aria-labelledby="services-label">
+            <li><a href="#services" class="dropdown-link">Customer Support</a></li>
+            <li><a href="#services" class="dropdown-link">Content Moderation</a></li>
+            <li><a href="#services" class="dropdown-link">AI Data Services</a></li>
+            <li><a href="#services" class="dropdown-link">Digital Marketing</a></li>
+            <li><a href="#services" class="dropdown-link">Finance and Accounting</a></li>
+          </ul>
+        </li>
+        <li class="nav-item has-dropdown" tabindex="0" aria-haspopup="true" aria-expanded="false">
+          <span class="nav-link" aria-controls="industries-dropdown" id="industries-label">Industries</span>
+          <ul class="dropdown-menu mega-menu" id="industries-dropdown" aria-labelledby="industries-label">
+            <li><a href="#industries" class="dropdown-link">Technology</a></li>
+            <li><a href="#industries" class="dropdown-link">Healthcare</a></li>
+            <li><a href="#industries" class="dropdown-link">Finance</a></li>
+            <li><a href="#industries" class="dropdown-link">Ecommerce</a></li>
+            <li><a href="#industries" class="dropdown-link">Gaming</a></li>
+            <li><a href="#industries" class="dropdown-link">Telecommunications</a></li>
+          </ul>
+        </li>
+        <li class="nav-item has-dropdown" tabindex="0" aria-haspopup="true" aria-expanded="false">
+          <span class="nav-link" aria-controls="insights-dropdown" id="insights-label">Insights</span>
+          <ul class="dropdown-menu" id="insights-dropdown" aria-labelledby="insights-label">
+            <li><a href="#case-studies" class="dropdown-link">Case Studies</a></li>
+            <li><a href="#ai-chat" class="dropdown-link">AI Expert Chat</a></li>
+            <li><a href="#careers" class="dropdown-link">Careers</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="#careers" class="nav-link">Careers</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary">Get Consultation</a>
+        <a href="#ai-chat" class="btn btn-secondary">AI Expert Chat</a>
+      </div>
+      <button aria-label="Toggle menu" id="hamburger" class="hamburger" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="hero">
+    <div class="container hero-container">
+      <div class="hero-left">
+        <h1 class="hero-title">
+          The Future of Outsourcing Starts Here.
+        </h1>
+        <p class="hero-subtitle">
+          AI-powered teams delivering world-class customer experience, data intelligence, and operational excellence.
+        </p>
+        <div class="hero-buttons">
+          <a href="#services" class="btn btn-primary">Explore Services</a>
+          <a href="#contact" class="btn btn-outline">Get Free Consultation</a>
+          <a href="#ai-chat" class="btn btn-tertiary">AI Expert Chat</a>
+        </div>
+      </div>
+      <div class="hero-right" aria-hidden="true">
+        <div class="d-frame-glow">
+          <svg class="d-frame" viewBox="0 0 200 200" aria-hidden="true" >
+            <path d="M50 10 L150 10 C180 10 180 190 150 190 L50 190 Z" fill="none" stroke="#2F80ED" stroke-width="8" rx="40" ry="40" />
+          </svg>
+
+          <!-- Animated world map with digital network lines and subtle particles -->
+          <canvas id="hero-canvas" class="hero-canvas"></canvas>
+        </div>
+      </div>
+    </div>
+    <!-- Background floating shapes -->
+    <div aria-hidden="true" class="hero-bg-shapes">
+      <div class="shape1"></div>
+      <div class="shape2"></div>
+      <div class="shape3"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="section-title">About Dejoiy</h2>
+      <div class="about-content">
+        <article class="mission-vision-values">
+          <h3>Our Mission</h3>
+          <p>
+            To empower enterprises with AI-augmented outsourcing solutions that drive stronger teams, smarter technology, and safer outcomes.
+          </p>
+          <h3>Our Vision</h3>
+          <p>
+            To be the global leader in AI outsourcing, reshaping customer experience and operational excellence through innovation and human-centric approach.
+          </p>
+          <h3>Our Values</h3>
+          <ul>
+            <li>Innovation</li>
+            <li>Integrity</li>
+            <li>Excellence</li>
+            <li>Diversity & Inclusion</li>
+            <li>Sustainability</li>
+          </ul>
+        </article>
+
+        <aside class="testimonials" aria-label="Customer testimonials">
+          <h3>What our clients say</h3>
+          <div class="testimonial-cards">
+
+            <blockquote class="testimonial-card">
+              <div class="d-frame-testimonial" aria-hidden="true"></div>
+              <img src="assets/images/founders/testimonial1.jpg" alt="Client photo of Sarah T." loading="lazy" width="96" height="96" />
+              <p class="testimonial-text">“Dejoiy transformed our customer experience with world-class AI-powered teams.”</p>
+              <footer class="testimonial-author">Sarah T., VP Customer Experience</footer>
+            </blockquote>
+
+            <blockquote class="testimonial-card">
+              <div class="d-frame-testimonial" aria-hidden="true"></div>
+              <img src="assets/images/founders/testimonial2.jpg" alt="Client photo of Michael B." loading="lazy" width="96" height="96" />
+              <p class="testimonial-text">“Their operational excellence and data insight capabilities are unmatched.”</p>
+              <footer class="testimonial-author">Michael B., Head of Operations</footer>
+            </blockquote>
+
+            <blockquote class="testimonial-card">
+              <div class="d-frame-testimonial" aria-hidden="true"></div>
+              <img src="assets/images/founders/testimonial3.jpg" alt="Client photo of Anika S." loading="lazy" width="96" height="96" />
+              <p class="testimonial-text">“Partnering with Dejoiy helped us scale efficiently while maintaining quality.”</p>
+              <footer class="testimonial-author">Anika S., CEO</footer>
+            </blockquote>
+
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section class="services" id="services" aria-label="Our Services">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+      <div class="services-grid">
+
+        <article class="service-card">
+          <div class="d-frame-service" aria-hidden="true"></div>
+          <img src="assets/icons/customer-support.svg" alt="" aria-hidden="true" class="service-icon" />
+          <h3>Customer Support</h3>
+          <p>Human+AI teams providing 24/7 seamless customer assistance across channels.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="d-frame-service" aria-hidden="true"></div>
+          <img src="assets/icons/content-moderation.svg" alt="" aria-hidden="true" class="service-icon" />
+          <h3>Content Moderation</h3>
+          <p>Protect communities with precision moderation powered by AI and expert teams.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="d-frame-service" aria-hidden="true"></div>
+          <img src="assets/icons/ai-data-services.svg" alt="" aria-hidden="true" class="service-icon" />
+          <h3>AI Data Services</h3>
+          <p>High quality data annotation and intelligence fueling machine learning models.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="d-frame-service" aria-hidden="true"></div>
+          <img src="assets/icons/digital-marketing.svg" alt="" aria-hidden="true" class="service-icon" />
+          <h3>Digital Marketing</h3>
+          <p>Data-driven campaigns that engage audiences and multiply ROI.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="d-frame-service" aria-hidden="true"></div>
+          <img src="assets/icons/finance-and-accounting.svg" alt="" aria-hidden="true" class="service-icon" />
+          <h3>Finance and Accounting</h3>
+          <p>Streamlining your financial operations with automated and expert services.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- INDUSTRIES SECTION -->
+  <section class="industries" id="industries" aria-label="Industries We Serve">
+    <div class="container">
+      <h2 class="section-title">Industries</h2>
+      <div class="industries-grid">
+
+        <button class="industry-tile" aria-label="Technology Industry">
+          <img src="assets/icons/industry-technology.svg" alt="" aria-hidden="true" />
+          <h3>Technology</h3>
+          <p>Cutting-edge AI services for software and hardware innovators.</p>
+        </button>
+
+        <button class="industry-tile" aria-label="Healthcare Industry">
+          <img src="assets/icons/industry-healthcare.svg" alt="" aria-hidden="true" />
+          <h3>Healthcare</h3>
+          <p>Reliable operations supporting patient experiences and data security.</p>
+        </button>
+
+        <button class="industry-tile" aria-label="Finance Industry">
+          <img src="assets/icons/industry-finance.svg" alt="" aria-hidden="true" />
+          <h3>Finance</h3>
+          <p>Secure and compliant financial data & outsourcing solutions.</p>
+        </button>
+
+        <button class="industry-tile" aria-label="Ecommerce Industry">
+          <img src="assets/icons/industry-ecommerce.svg" alt="" aria-hidden="true" />
+          <h3>Ecommerce</h3>
+          <p>Accelerating retail growth with customer-centric digital operations.</p>
+        </button>
+
+        <button class="industry-tile" aria-label="Gaming Industry">
+          <img src="assets/icons/industry-gaming.svg" alt="" aria-hidden="true" />
+          <h3>Gaming</h3>
+          <p>Engaging gamers with moderated, secure, and creative support.</p>
+        </button>
+
+        <button class="industry-tile" aria-label="Telecommunications Industry">
+          <img src="assets/icons/industry-telecom.svg" alt="" aria-hidden="true" />
+          <h3>Telecommunications</h3>
+          <p>Optimizing networks and support with intelligent outsourcing.</p>
+        </button>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY DEJOIY SECTION -->
+  <section class="why-dejoiy" aria-label="Why choose Dejoiy?">
+    <div class="container">
+      <h2 class="section-title">Why Dejoiy</h2>
+      <div class="pillars-grid">
+
+        <article class="pillar">
+          <div class="d-frame-pillar" aria-hidden="true">
+            <svg viewBox="0 0 140 140" class="pillar-d-icon" aria-hidden="true">
+              <path d="M30 20L110 20C130 20 130 120 110 120L30 120Z" stroke="#FFC700" stroke-width="5" fill="none" rx="30" ry="30"/>
+            </svg>
+          </div>
+          <h3>Stronger Teams</h3>
+          <p>We hire the best, train with precision, and foster well-being for exceptional results.</p>
+        </article>
+
+        <article class="pillar">
+          <div class="d-frame-pillar" aria-hidden="true">
+            <svg viewBox="0 0 140 140" class="pillar-d-icon" aria-hidden="true">
+              <path d="M30 20L110 20C130 20 130 120 110 120L30 120Z" stroke="#2F80ED" stroke-width="5" fill="none" rx="30" ry="30"/>
+            </svg>
+          </div>
+          <h3>Smarter Technology</h3>
+          <p>Technology that works with people to drive efficiency and elevate service levels.</p>
+        </article>
+
+        <article class="pillar">
+          <div class="d-frame-pillar" aria-hidden="true">
+            <svg viewBox="0 0 140 140" class="pillar-d-icon" aria-hidden="true">
+              <path d="M30 20L110 20C130 20 130 120 110 120L30 120Z" stroke="#FFC700" stroke-width="5" fill="none" rx="30" ry="30" />
+            </svg>
+          </div>
+          <h3>Safer Outcomes</h3>
+          <p>We protect customer experiences holding rigorous safety, compliance, and quality standards.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOUNDERS SECTION -->
+  <section class="founders" id="founders" aria-label="Leadership Team">
+    <div class="container">
+      <h2 class="section-title">Meet Our Leadership</h2>
+      <div class="founders-grid">
+
+        <!-- Founder 1 -->
+<div class="flip-card" aria-label="Founder Card: Jyoti Sharma">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <div class="d-frame-founder" aria-hidden="true"></div>
+      <img src="assets/images/founders/jyoti-sharma.jpg" alt="Jyoti Sharma, Founder, Director" loading="lazy" />
+      <h3>Jyoti Sharma</h3>                         <!-- Update name here -->
+      <p class="title">Founder, Director</p>         <!-- Update title here -->
+      <button class="swap-btn" aria-pressed="false" aria-label="Show Spirit Animal">Swap</button>
+    </div>
+    <div class="flip-card-back">
+      <img src="assets/images/founders/spirit-wolf.svg" alt="Wolf Spirit Animal" />
+      <h3>Wolf</h3>
+      <p>Determined leader with strong instincts, fostering loyalty and collaboration.</p>
+      <button class="swap-btn" aria-pressed="true" aria-label="Show Founder Info">Swap</button>
+    </div>
+  </div>
+</div>
+
+<!-- Founder 2 -->
+<div class="flip-card" aria-label="Co-Founder Card: Anil Sharma">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <div class="d-frame-founder" aria-hidden="true"></div>
+      <img src="assets/images/founders/anil-sharma.jpg" alt="Anil Sharma, Co-Founder, Managing Director" loading="lazy" />
+      <h3>Anil Sharma</h3>                         <!-- Update name here -->
+      <p class="title">Co-Founder, Managing Director</p> <!-- Update title here -->
+      <button class="swap-btn" aria-pressed="false" aria-label="Show Spirit Animal">Swap</button>
+    </div>
+    <div class="flip-card-back">
+      <img src="assets/images/founders/spirit-eagle.svg" alt="Eagle Spirit Animal" />
+      <h3>Eagle</h3>
+      <p>Visionary strategist with high perspective, inspiring innovation and growth.</p>
+      <button class="swap-btn" aria-pressed="true" aria-label="Show Founder Info">Swap</button>
+    </div>
+  </div>
+</div>
+  </section>
+
+  <!-- GLOBAL PRESENCE SECTION -->
+  <section class="global-presence" aria-label="Global Presence">
+    <div class="container">
+      <h2 class="section-title">Our Global Presence</h2>
+      <div class="map-container" aria-hidden="true">
+        <canvas id="global-map-canvas" class="global-map-canvas"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASE STUDIES SECTION -->
+  <section class="case-studies" id="case-studies" aria-label="Client Success Stories">
+    <div class="container">
+      <h2 class="section-title">Client Success</h2>
+      <div class="case-studies-scroll">
+        <article class="case-study-card">
+          <div class="d-frame-case" aria-hidden="true"></div>
+          <video controls preload="metadata" poster="assets/images/case1.jpg" width="320" height="180" aria-label="Client case study video 1"></video>
+          <div class="case-study-content">
+            <h3>60% Faster Support Response</h3>
+            <p>Achieve breakthrough improvements in customer support speed.</p>
+          </div>
+        </article>
+
+        <article class="case-study-card">
+          <div class="d-frame-case" aria-hidden="true"></div>
+          <video controls preload="metadata" poster="assets/images/case2.jpg" width="320" height="180" aria-label="Client case study video 2"></video>
+          <div class="case-study-content">
+            <h3>40% Operational Savings</h3>
+            <p>Optimize workflows to reduce costs and improve processes.</p>
+          </div>
+        </article>
+
+        <article class="case-study-card">
+          <div class="d-frame-case" aria-hidden="true"></div>
+          <video controls preload="metadata" poster="assets/images/case3.jpg" width="320" height="180" aria-label="Client case study video 3"></video>
+          <div class="case-study-content">
+            <h3>95% Customer Satisfaction</h3>
+            <p>Consistently maintaining top level satisfaction scores worldwide.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI EXPERT CHAT SECTION -->
+  <section class="ai-expert-chat" id="ai-chat" aria-label="AI Expert Chat">
+    <div class="container">
+      <h2 class="section-title">Ask our AI outsourcing expert anything</h2>
+      <form class="ai-chat-form" role="search" aria-label="AI Expert chat form">
+        <input type="text" id="ai-query" placeholder="Type your question here..." aria-live="polite" aria-describedby="prompt-examples" autocomplete="off" />
+        <button type="submit" class="btn btn-primary">Ask</button>
+      </form>
+      <div id="prompt-examples" class="prompt-examples" aria-hidden="true">
+        <p>Example prompts:</p>
+        <ul>
+          <li>How can AI improve customer support efficiency?</li>
+          <li>What industries benefit most from outsourcing?</li>
+          <li>Tell me about Dejoiy's approach to data security.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAREERS SECTION -->
+  <section class="careers" id="careers" aria-label="Careers at Dejoiy">
+    <div class="container">
+      <h2 class="section-title">Build the Future of Digital Operations</h2>
+      <p>Join a diverse, collaborative team passionate about innovation and impact.</p>
+      <div class="team-images">
+        <img src="assets/images/founders/team-collaborate1.jpg" alt="Diverse teams collaborating" loading="lazy" />
+        <img src="assets/images/founders/team-collaborate2.jpg" alt="Team discussion in modern office" loading="lazy" />
+        <img src="assets/images/founders/team-collaborate3.jpg" alt="People working with technology" loading="lazy" />
+      </div>
+      <a href="#contact" class="btn btn-primary careers-btn">View Open Positions</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contact" aria-label="Contact Information and Footer">
+    <div class="container footer-container">
+      <div class="footer-columns">
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#careers">Careers</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Customer Support</a></li>
+            <li><a href="#services">AI Data Services</a></li>
+            <li><a href="#services">Digital Marketing</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#case-studies">Case Studies</a></li>
+            <li><a href="#ai-chat">AI Expert Chat</a></li>
+            <li><a href="#insights">Insights</a></li>
+          </ul>
+        </div>
+       <div class="footer-col footer-contact">
+  <h4>Contact</h4>
+  <address>
+    Delhi, India<br />                           <!-- Update Address here -->
+    Email: <a href="mailto:hello@dejoiy.com">hello@dejoiy.com</a><br />  <!-- Update email -->
+    Phone: <a href="tel:01146594424">01146594424</a>                   <!-- Update phone -->
+  </address>
+          <div class="social-icons">
+            <a href="#" aria-label="LinkedIn" class="social-icon d-icon-linkedin"></a>
+            <a href="#" aria-label="Twitter" class="social-icon d-icon-twitter"></a>
+            <a href="#" aria-label="Facebook" class="social-icon d-icon-facebook"></a>
+          </div>
+          <form class="newsletter-form" aria-label="Newsletter subscription form">
+            <label for="newsletter-email" class="sr-only">Email address</label>
+            <input id="newsletter-email" type="email" placeholder="Subscribe to newsletter" required />
+            <button type="submit" aria-label="Subscribe">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <p class="footer-copy">&copy; 2024 Dejoiy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
